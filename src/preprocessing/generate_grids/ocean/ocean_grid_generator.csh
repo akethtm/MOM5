@@ -89,7 +89,7 @@
        nxlons=900,x_lon=30.,120.,dx_lon=0.1,0.1,
        nylats=600,y_lat=-30.,30.,dy_lat=0.1,0.1,
        tripolar_grid=.false.,lat_join=65, 
-       debug = .true. /
+       debug = .true.,cyclic_x=false /
     &vgrid_nml
        nzdepths=3,z_depth=0.0,100.0,5600.0,dz_depth=25.0,25.0,975.0
        debug = .true. /

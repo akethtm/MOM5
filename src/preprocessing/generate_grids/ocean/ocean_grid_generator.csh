@@ -87,7 +87,7 @@
        output_file = '$name.nc'  /    
     &hgrid_nml
        nxlons=900,x_lon=30.,120.,dx_lon=0.1,0.1,
-       nylats=2,y_lat=-30.,30.,dy_lat=0.1,0.1,
+       nylats=600,y_lat=-30.,30.,dy_lat=0.1,0.1,
        tripolar_grid=.false.,lat_join=65, 
        debug = .true. /
     &vgrid_nml

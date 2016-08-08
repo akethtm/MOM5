@@ -36,7 +36,7 @@
 
   set mkmfTemplate = $root/bin/mkmf.template.$platform  # path to mkmf template 
 
-  set topog_file   = $FMS_ARCHIVE/mom4/input_data/OCCAM_p5degree.nc
+  set topog_file   = /home/aketh/BreakawayLabs-mom-f406b4c/src/preprocessing/generate_grids/ocean/indiano5.nc 
 
 #############################################################################
 # Users need not change anything below this line except the namelists values.
@@ -86,8 +86,8 @@
        grid_type   = 'hgrid_vgrid_topog'
        output_file = '$name.nc'  /    
     &hgrid_nml
-       nxlons=2,x_lon=0.,360.,dx_lon=2.5,2.5,
-       nylats=2,y_lat=-90.,90.,dy_lat=2.0,2.0,
+       nxlons=900,x_lon=30.,120.,dx_lon=0.1,0.1,
+       nylats=600,y_lat=-30.,30.,dy_lat=0.1,0.1,
        tripolar_grid=.false.,lat_join=65, 
        debug = .true. /
     &vgrid_nml

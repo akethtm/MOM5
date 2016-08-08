@@ -1,0 +1,8 @@
+*~
+exec/
+work/
+bin/mppnccombine.gfortran
+*.tar.gz
+*.nc
+*.o
+*.mod

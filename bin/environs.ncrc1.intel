@@ -19,5 +19,5 @@
 	setenv FMS_ARCHIVE /lustre/fs/archive/fms
         setenv mpirunCommand   "mpirun -n"
 	setenv PATH ${PATH}:.
-        setenv netcdf3_inc_dir "/opt/cray/netcdf/3.6.2/netcdf-gnu/include"
-	setenv netcdf3_lib_dir "/opt/cray/netcdf/3.6.2/netcdf-gnu/lib"
+        setenv netcdf3_inc_dir "/home/aketh/installed_files/netcdf/include"
+	setenv netcdf3_lib_dir "/home/aketh/installed_files/netcdf/lib"

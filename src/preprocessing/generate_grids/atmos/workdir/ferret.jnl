@@ -1,0 +1,8 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.93  
+ ! Linux 2.6.32-504.el6.x86_64 64-bit - 11/13/14
+ ! 11-Aug-16 11:43     
+
+use atmos_grid.nc
+sh da
+shade X_T

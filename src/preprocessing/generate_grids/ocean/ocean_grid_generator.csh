@@ -22,7 +22,7 @@
 
   set echo
   set platform     = "ncrc1.intel"                                    # A unique identifier for your platform
-  set npes         = 1                                      # number of processors
+  set npes         = 1                                     # number of processors
 #
 # input data file and destination grid
 #
@@ -86,25 +86,27 @@
        grid_type   = 'hgrid_vgrid_topog'
        output_file = '$name.nc'  /    
     &hgrid_nml
-       nxlons=900,x_lon=30.,120.,dx_lon=0.1,0.1,
-       nylats=600,y_lat=-30.,30.,dy_lat=0.1,0.1,
+       nxlons=2,x_lon=30.,120.,dx_lon=0.1,0.1,
+       nylats=2,y_lat=-30.,30.,dy_lat=0.1,0.1,
        tripolar_grid=.false.,lat_join=65, 
        debug = .true.,cyclic_x=false /
     &vgrid_nml
        nzdepths=3,z_depth=0.0,100.0,5600.0,dz_depth=25.0,25.0,975.0
        debug = .true. /
     &topog_nml
-       topography = 'rectangular_basin' 
+       topography = 'from_file' 
        topog_depend_on_vgrid = .TRUE.
        fill_first_row = .true.
+       topog_file = '$topog_file',
        kmt_min=2,
        filter_topog=.false.,
        num_filter_pass=5,
        scale_factor=-1,
        interp_method = "conservative"
+       topog_field = "depth"
        debug = .true. /
     &fms_nml
-       domains_stack_size = 105560 /
+       domains_stack_size = 10556000 /
 
 EOF
 
@@ -126,7 +128,6 @@ EOF
        topography = 'from_file' 
        topog_depend_on_vgrid = .TRUE.
        topog_file='$topog_file',
-       topog_field='topo',
        lon_field = 'geolon_t'
        lat_field = 'geolat_t'
        fill_first_row = .true.
@@ -138,10 +139,10 @@ EOF
        num_filter_pass=5,
        scale_factor= -1,
        src_is_spherical = .true.
-       interp_method = "bilinear"
+       interp_method = "bilinear" 
        debug = .true. /
     &fms_nml
-       domains_stack_size = 576000 /
+       domains_stack_size = 57600000 /
 
 EOF
 

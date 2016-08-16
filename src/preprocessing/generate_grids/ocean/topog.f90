@@ -1697,6 +1697,10 @@ contains
        endif
     enddo
 
+    print *,"nlon_src is",nlon_src
+    print *,"nlat_src is",nlat_src
+    print *,"topog_field is ",topog_field
+
     if (nlon_src == 0 .or. nlat_src == 0 ) call mpp_error(FATAL,'topog_mod: field '//trim(topog_field)// &
          ' not found in file '//trim(topog_file) )
 

@@ -1,0 +1,88 @@
+========================================================================
+READ_ASCII_FILE: $Id: mpp_util.inc,v 20.0 2013/12/14 00:27:35 fms Exp $:$Name: tikal $
+READ_ASCII_FILE: File: input.nml
+========================================================================
+READ_INPUT_NML: $Id: mpp_util.inc,v 20.0 2013/12/14 00:27:35 fms Exp $:$Name: tikal $
+READ_INPUT_NML: input.nml 
+      &atmos_grid_generator_nml
+        output_file = 'atmos_grid.nc'  /
+     &atmos_grid_nml
+        grid_type = 'bgrid'
+        num_lon=144, num_lat=90   /
+ 
+
+MPP module $Id mpp.F90 $$Name: tikal $
+MPP started with NPES=     1
+Using MPI library for message passing...
+Realtime clock resolution=  1.0000E-06 sec (   1000000 ticks/sec)
+Clock rolls over after   9.2234E+12 sec ( 9223372036854775806 ticks)
+
+MPP module $Id mpp_parameter.F90 $$Name: tikal $
+
+MPP module $Id mpp_data.F90 $$Name: tikal $
+
+MPP_DOMAINS module $Id: mpp_domains.F90,v 20.0 2013/12/14 00:22:42 fms Exp $$Name: tikal $
+ &MPP_IO_NML
+ HEADER_BUFFER_VAL       =       16384,
+ GLOBAL_FIELD_ON_ROOT_PE = T,
+ IO_CLOCKS_ON    = F,
+ SHUFFLE =           0,
+ DEFLATE_LEVEL   =          -1
+ /
+
+MPP_IO module $Id: mpp_io.F90,v 20.0 2013/12/14 00:23:45 fms Exp $
+MPP_IO module $Name: tikal $
+
+Using netCDF library version 4.1.2 of Jul 29 2016 15:52:14 $
+ &FMS_IO_NML
+ FMS_NETCDF_OVERRIDE     = T,
+ FMS_NETCDF_RESTART      = T,
+ THREADING_READ  = multi                           ,
+ THREADING_WRITE = multi                           ,
+ FILESET_WRITE   = multi                           ,
+ FORMAT  = netcdf                          ,
+ READ_ALL_PE     = T,
+ IOSPEC_IEEE32   = -N ieee_32                                                      ,
+ MAX_FILES_W     =          40,
+ MAX_FILES_R     =          40,
+ READ_DATA_BUG   = F,
+ TIME_STAMP_RESTART      = T,
+ PRINT_CHKSUM    = F,
+ SHOW_OPEN_NAMELIST_FILE_WARNING = F,
+ DEBUG_MASK_LIST = F,
+ CHECKSUM_REQUIRED       = T
+ /
+
+================================================================================
+$Id: fms_io.F90,v 20.0 2013/12/14 00:20:08 fms Exp $
+$Name: tikal $
+
+================================================================================
+$Id: fms.F90,v 20.0 2013/12/14 00:20:05 fms Exp $
+$Name: tikal $
+ &FMS_NML
+ READ_ALL_PE     = T,
+ CLOCK_GRAIN     = NONE            ,
+ CLOCK_FLAGS     = NONE            ,
+ WARNING_LEVEL   = warning ,
+ IOSPEC_IEEE32   = -N ieee_32                                                      ,
+ STACK_SIZE      =           0,
+ DOMAINS_STACK_SIZE      =           0,
+ PRINT_MEMORY_USAGE      = F
+ /
+ nml_error_codes=
+
+================================================================================
+$Id: constants.F90,v 17.0 2009/07/21 03:18:26 fms Exp $
+$Name: tikal $
+
+================================================================================
+$Id: atmos_grid_generator.f90,v 10.0 2003/10/24 22:01:43 fms Exp $
+$Name: tikal $
+
+================================================================================
+$Id: atmos_grid.f90,v 10.0 2003/10/24 22:01:43 fms Exp $
+$Name: tikal $
+
+                                     time
+Total runtime                         0.131279

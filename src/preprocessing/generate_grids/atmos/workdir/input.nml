@@ -1,0 +1,5 @@
+     &atmos_grid_generator_nml
+       output_file = 'atmos_grid.nc'  /    
+    &atmos_grid_nml
+       grid_type = 'bgrid'
+       num_lon=144, num_lat=90   /

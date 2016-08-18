@@ -1,8 +1,7 @@
  ! NOAA/PMEL TMAP
  ! FERRET v6.93  
  ! Linux 2.6.32-504.el6.x86_64 64-bit - 11/13/14
- ! 18-Aug-16 11:50     
+ ! 18-Aug-16 11:58     
 
-use OCCAM_p5degree.nc
-sh da
-exit
+use ocean_grid.nc
+shade WET

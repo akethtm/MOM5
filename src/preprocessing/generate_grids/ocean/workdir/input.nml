@@ -2,7 +2,7 @@
        grid_type   = 'hgrid_vgrid_topog'
        output_file = 'ocean_grid.nc'  /    
     &hgrid_nml
-       nxlons=2,x_lon=30.,120.,dx_lon=0.1,0.1,
+       nxlons=2,x_lon=30.,100.,dx_lon=0.1,0.1,
        nylats=2,y_lat=-30.,30.,dy_lat=0.1,0.1,
        tripolar_grid=.false.,lat_join=65, 
        debug = .true.,cyclic_x=false /
@@ -18,8 +18,8 @@
        filter_topog=.false.,
        num_filter_pass=5,
        scale_factor=-1,
-       interp_method = "conservative"
-       topog_field = "depth",
+       interp_method = "bilinear"
+       topog_field = "DEPTH",
        debug = .true. /
     &fms_nml
        domains_stack_size = 10556000 /

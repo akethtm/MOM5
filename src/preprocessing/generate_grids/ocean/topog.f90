@@ -478,6 +478,7 @@ contains
           latv(ni+1,nj+1) = yv(ni,    nj,4)
           call get_topog_from_file(lonv, latv, ht(1:ni,1:nj) )
           deallocate(xv, yv, lonv, latv)
+          
        else
           call get_topog_from_file(Hgrid%T%x(1:ni,1:nj), Hgrid%T%y(1:ni,1:nj), ht(1:ni,1:nj) )
        end if
@@ -1843,6 +1844,7 @@ contains
           call mpp_error(FATAL,'topog_mod: nml interp_method should be either "spherical", "bilinear" or "conservative" ')
        end select
        call mpp_global_field(domain, tmp,global_tmp)
+       print *,"size of data_dst and global_tmp is",size(data_dst),size(global_tmp)
        data_dst = global_tmp
        deallocate(tmp, global_tmp)
     else
@@ -1850,6 +1852,7 @@ contains
        data_dst(:,:)=data_src(:,:)*mask_src(:,:)
     endif
 
+    print *,"end of this function"
     return
 
   end subroutine get_topog_from_file

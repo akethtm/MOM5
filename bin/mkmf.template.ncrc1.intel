@@ -33,7 +33,7 @@ INCLUDE = -I$(NETCDF_ROOT)/include
 FPPFLAGS := -fpp -Wp,-w $(INCLUDE)
 
 FFLAGS := -fno-alias -automatic -safe-cray-ptr -ftz -assume byterecl -i4 -r8 -nowarn  
-FFLAGS_OPT = -O3 -debug minimal -fp-model precise -override-limits -L/home/aketh/installed_files/netcdf/lib
+FFLAGS_OPT = -O3 -debug minimal -g -fp-model precise -override-limits -L/home/aketh/installed_files/netcdf/lib
 FFLAGS_DEBUG = -g -O0 -check -check noarg_temp_created -check nopointer -warn -warn noerrors -fpe0 -traceback -ftrapuv
 FFLAGS_REPRO = -O2 -debug minimal -fp-model precise -override-limits
 FFLAGS_OPENMP = -openmp

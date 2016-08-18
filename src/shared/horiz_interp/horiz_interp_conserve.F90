@@ -281,6 +281,7 @@ contains
           enddo
           ! no match
           if ( Interp%ilon(m,m2) == 0 ) then
+             print *, "m and m2 is",m,m2
              print *, 'lon_out,blon,blon_in,eps=',  &
                   theta(m,m2),blon,lon_in(1),lon_in(nlon_in+1),eps
              call mpp_error(FATAL, 'horiz_interp_conserve_mod: no longitude index found')

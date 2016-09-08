@@ -1,0 +1,29 @@
+NOTE: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+ &MPP_IO_NML
+ HEADER_BUFFER_VAL       =       16384,
+ GLOBAL_FIELD_ON_ROOT_PE = T,
+ IO_CLOCKS_ON    = F,
+ SHUFFLE =           0,
+ DEFLATE_LEVEL   =          -1
+ /
+NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+
+
+ &COMPARE_GRID_NML
+ GRID_FILE_1     = /home/aketh/BreakawayLabs-mom-f406b4c/src/preprocessing/generate_grids/ocean/workdir/ocean_grid.nc                
+               ,
+ GRID_FILE_2     = /home/aketh/BreakawayLabs-mom-f406b4c/src/preprocessing/generate_grids/ocean/workdir/edit_grid.nc                 
+               ,
+ GRID_EDITS      = grid_edits                                                                                                        
+               ,
+ MASK_DIFF       = mask_diff                                                                                                         
+               
+ /
+NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     540000.
+ MPP_DOMAINS_STACK high water mark=           0
+
+Tabulating mpp_clock statistics across      1 PEs...
+
+                                          tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+Total runtime                         0.432817      0.432817      0.432817      0.000000  1.000     0     0     0
+ MPP_STACK high water mark=           0

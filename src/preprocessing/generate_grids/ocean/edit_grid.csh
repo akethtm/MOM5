@@ -13,7 +13,7 @@
 # These particular values are here for testing purposes in GFDL only.  
 #######################################################################
   set echo
-  set platform     = "ncrc.intel"                      # A unique identifier for your platform
+  set platform     = "ncrc1.intel"                      # A unique identifier for your platform
 #
   set root         = $cwd:h:h:h:h                       # The directory that contains src/ and bin/
   set npes         = 1
@@ -71,9 +71,7 @@
 # if the grid_edits file does not exist, create one here.
   if( ! -f $grid_edits) then
      cat >$grid_edits <<EOF
-     100:105, 50:65, 1000   #lon_start:lon_end, lat_start:lat_end, new height.
-     65, 75, 200
-     5,16, 0
+     80,9.5,1000   #lon_start:lon_end, lat_start:lat_end, new height.
 EOF
   endif
 

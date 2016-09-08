@@ -8,7 +8,7 @@ READ_INPUT_NML: input.nml
         grid_type   = 'hgrid_vgrid_topog'
         output_file = 'ocean_grid.nc'  /
      &hgrid_nml
-        nxlons=2,x_lon=30.,100.,dx_lon=0.1,0.1,
+        nxlons=2,x_lon=30.,120.,dx_lon=0.1,0.1,
         nylats=2,y_lat=-30.,30.,dy_lat=0.1,0.1,
         tripolar_grid=.false.,lat_join=65,
         debug = .true.,cyclic_x=false /
@@ -20,7 +20,7 @@ READ_INPUT_NML: input.nml
         topog_depend_on_vgrid = .TRUE.
         fill_first_row = .true.
         topog_file = '/home/aketh/BreakawayLabs-mom-f406b4c/src/preprocessing/ge
- nerate_grids/ocean/indiano5.nc',
+ nerate_grids/ocean/global_merged5.nc',
         kmt_min=2,
         filter_topog=.false.,
         num_filter_pass=5,
@@ -138,4 +138,4 @@ $Id: horiz_interp_spherical.F90,v 20.0 2013/12/14 00:20:28 fms Exp $
 $Name: tikal $
 
                                      time
-Total runtime                        11.555400
+Total runtime                        18.009216

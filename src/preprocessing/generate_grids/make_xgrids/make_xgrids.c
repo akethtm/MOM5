@@ -1326,6 +1326,8 @@ main (int argc, char *argv[])
   iec = endlist[pe];  
   natm_local = iec - isc + 1;
 
+  //printf("works here");
+
   if(natm_local > MAXLOCAL) error_handler(" number of atmos points on this pe is greater MAXLOCAL, increase MAXLOCAL");
   
   atm_area      = (double *) malloc (MAXLOCAL*sizeof(double));
@@ -1400,6 +1402,7 @@ main (int argc, char *argv[])
   /*
    * Define output file variables for atmos/ocean and atmos/land X-grids
    */
+
   NC_CALL(nc_create(axo_file, NC_NOCLOBBER, &ncidAO))
   NC_CALL(nc_def_dim(ncidAO, "i_atmXocn", NC_UNLIMITED, &dim_AO))
   NC_CALL(nc_def_var(ncidAO, "AREA_ATMxOCN", NC_DOUBLE,1, &dim_AO, &area_AO_id))
@@ -1410,6 +1413,8 @@ main (int argc, char *argv[])
   NC_CALL(nc_def_var(ncidAO, "I_OCN_ATMxOCN",  NC_INT,  1, &dim_AO, &io_AO_id))
   NC_CALL(nc_def_var(ncidAO, "J_OCN_ATMxOCN",  NC_INT,  1, &dim_AO, &jo_AO_id))
   NC_CALL(nc_enddef(ncidAO))
+
+  printf("if this prints the assumption is wrong");
 
   NC_CALL(nc_create(axl_file, NC_NOCLOBBER, &ncidAL))
   NC_CALL(nc_def_dim(ncidAL, "I_ATMxLND", NC_UNLIMITED, &dim_AL))

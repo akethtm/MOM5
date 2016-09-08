@@ -93,5 +93,5 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
 Tabulating mpp_clock statistics across      1 PEs...
 
                                           tmin          tmax          tavg          tstd  tfrac grain pemin pemax
-Total runtime                         0.131279      0.131279      0.131279      0.000000  1.000     0     0     0
+Total runtime                         0.204178      0.204178      0.204178      0.000000  1.000     0     0     0
  MPP_STACK high water mark=           0

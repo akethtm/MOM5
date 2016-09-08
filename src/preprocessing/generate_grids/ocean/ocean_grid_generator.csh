@@ -38,7 +38,7 @@
 
   set mkmfTemplate = $root/bin/mkmf.template.$platform  # path to mkmf template 
 
-  set topog_file   = /home/aketh/BreakawayLabs-mom-f406b4c/src/preprocessing/generate_grids/ocean/indiano5.nc
+  set topog_file   = /home/aketh/BreakawayLabs-mom-f406b4c/src/preprocessing/generate_grids/ocean/global_merged5.nc
 
 #############################################################################
 # Users need not change anything below this line except the namelists values.
@@ -88,7 +88,7 @@
        grid_type   = 'hgrid_vgrid_topog'
        output_file = '$name.nc'  /    
     &hgrid_nml
-       nxlons=2,x_lon=30.,100.,dx_lon=0.1,0.1,
+       nxlons=2,x_lon=30.,120.,dx_lon=0.1,0.1,
        nylats=2,y_lat=-30.,30.,dy_lat=0.1,0.1,
        tripolar_grid=.false.,lat_join=65, 
        debug = .true.,cyclic_x=false /
@@ -105,7 +105,7 @@
        num_filter_pass=5,
        scale_factor=-1,
        interp_method = "bilinear"
-       topog_field = "DEPTH",
+       topog_field = "DEPTH", 
        debug = .true. /
     &fms_nml
        domains_stack_size = 10556000 /
@@ -142,7 +142,9 @@ EOF
        scale_factor= -1,
        topog_field = "TOPO",
        src_is_spherical = .true.
-       interp_method = "bilinear" 
+       interp_method = "bilinear"
+       fill_shallow = .TRUE.
+       bowl_min_depth = 5 
        debug = .true. /
     &fms_nml
        domains_stack_size = 57600000 /

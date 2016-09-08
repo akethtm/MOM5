@@ -264,6 +264,8 @@ contains
        end select
     enddo
 
+    print *,"fill_shallow is",fill_shallow
+
     do i=1,ndim
        call mpp_get_atts(axes_in(i),name=name,len=len)
        select case (trim(name))

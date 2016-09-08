@@ -15,7 +15,7 @@
 #######################################################################
   set echo
   set name         = "grid_spec"                                  # name of the grid file will be generated
-  set platform     = "ncrc.intel"                                    # A unique identifier for your platform
+  set platform     = "ncrc1.intel"                                    # A unique identifier for your platform
   set npes         = 1                                      # number of processors
 #
   set root         = $cwd:h:h:h:h                       # The directory that contains src/ and bin/

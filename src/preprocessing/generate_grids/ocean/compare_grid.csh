@@ -17,7 +17,7 @@
 #######################################################################
 
   set echo
-  set platform     = "ncrc.intel"                      # A unique identifier for your platform
+  set platform     = "ncrc1.intel"                      # A unique identifier for your platform
 #
   set root         = $cwd:h:h:h:h                       # The directory that contains src/ and bin/
 #

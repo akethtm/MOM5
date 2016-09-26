@@ -220,12 +220,13 @@ contains
           deallocate(axes)
           call mpp_close(unit)
        else
+          !print *,"starting"
           call mpp_open(unit,trim(my_grid_file),action=MPP_RDONLY,form=MPP_ASCII,  &
                threading=MPP_MULTI,fileset=MPP_SINGLE)
-          read(unit,*) txt ! header line (ignored) 
+          read(unit,*) txt ! header line (ignored)
           read(unit,*) nk
           read(unit,*) zt0(1:nk)
-          read(unit,*) txt ! header line (ignored) 
+          read(unit,*) txt ! header line (ignored)
           read(unit,*) 
           read(unit,*) zb0(1:nk)
           call mpp_close(unit)

@@ -93,7 +93,8 @@
        tripolar_grid=.false.,lat_join=65, 
        debug = .true.,cyclic_x=false /
     &vgrid_nml
-       nzdepths=3,z_depth=0.0,100.0,5600.0,dz_depth=25.0,25.0,975.0
+       read_my_grid=.true.
+       my_grid_file='/home/aketh/ascii_vgrid.dat'
        debug = .true. /
     &topog_nml
        topography = 'from_file' 
@@ -106,6 +107,7 @@
        scale_factor=-1,
        interp_method = "bilinear"
        topog_field = "DEPTH", 
+       fill_shallow = .TRUE.,
        debug = .true. /
     &fms_nml
        domains_stack_size = 10556000 /
@@ -124,7 +126,8 @@ EOF
        tripolar_grid=.true.,lat_join=65, 
        debug = .true. /
     &vgrid_nml
-       nzdepths=3,z_depth=0.,220.,5500.,dz_depth=10.,10.,367.14286
+       read_my_grid=.true.
+       my_grid_file='/home/aketh/grid_generation/depth_and_differences.txt'
        debug = .true. /
     &topog_nml
        topography = 'from_file' 

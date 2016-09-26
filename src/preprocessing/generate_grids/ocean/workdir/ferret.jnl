@@ -1,8 +1,8 @@
  ! NOAA/PMEL TMAP
  ! FERRET v6.93  
  ! Linux 2.6.32-504.el6.x86_64 64-bit - 11/13/14
- !  8-Sep-16 10:05     
+ ! 22-Sep-16 11:56     
 
-use edit_grid.nc
-shade/X=75:90/Y=5:11/lev=(0,100,10) DEPTH_T
+use ocean_grid.nc
+shade WET
 exit

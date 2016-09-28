@@ -71,7 +71,7 @@
 # if the grid_edits file does not exist, create one here.
   if( ! -f $grid_edits) then
      cat >$grid_edits <<EOF
-     80,9.5,1000   #lon_start:lon_end, lat_start:lat_end, new height.
+     9.5:10.5,79.9,1  #lon_start:lon_end, lat_start:lat_end, new height.
 EOF
   endif
 

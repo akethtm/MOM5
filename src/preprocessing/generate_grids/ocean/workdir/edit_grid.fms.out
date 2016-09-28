@@ -18,33 +18,37 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
                ,
  DEBUG   = F
  /
- fill_shallow is F
+ fill_shallow is T
 NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     540000.
- Resetting depth at location (i,j) :          489         393  = 
+ Resetting depth at location (i,j) :          499         499  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          490         393  = 
+ Resetting depth at location (i,j) :          498         400  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          491         393  = 
+ Resetting depth at location (i,j) :          498         401  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          492         393  = 
+ Resetting depth at location (i,j) :          497         402  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          493         392  = 
+ Resetting depth at location (i,j) :          497         403  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          494         392  = 
+ Resetting depth at location (i,j) :          500         399  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          495         392  = 
+ Resetting depth at location (i,j) :          500         400  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          496         392  = 
+ Resetting depth at location (i,j) :          499         401  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          497         392  = 
+ Resetting depth at location (i,j) :          499         402  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          498         392  = 
+ Resetting depth at location (i,j) :          498         403  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          499         391  = 
+ Resetting depth at location (i,j) :          501         399  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          500         391  = 
+ Resetting depth at location (i,j) :          501         400  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          501         391  = 
+ Resetting depth at location (i,j) :          500         401  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          500         402  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          499         403  = 
   0.000000000000000E+000
 NOTE: MPP_IO_SET_STACK_SIZE: stack size set to    2160000.
  MPP_DOMAINS_STACK high water mark=           0
@@ -52,5 +56,5 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to    2160000.
 Tabulating mpp_clock statistics across      1 PEs...
 
                                           tmin          tmax          tavg          tstd  tfrac grain pemin pemax
-Total runtime                         7.868253      7.868253      7.868253      0.000000  1.000     0     0     0
+Total runtime                         7.329624      7.329624      7.329624      0.000000  1.000     0     0     0
  MPP_STACK high water mark=           0

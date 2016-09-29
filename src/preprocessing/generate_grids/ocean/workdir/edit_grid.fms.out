@@ -78,35 +78,83 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     540000.
   0.000000000000000E+000
  Resetting depth at location (i,j) :          878         212  = 
   0.000000000000000E+000
+ Resetting depth at location (i,j) :          879         212  = 
+  0.000000000000000E+000
  Resetting depth at location (i,j) :          879         211  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          880         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          881         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          882         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          883         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          884         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          885         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          886         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          887         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          888         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          889         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          890         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          880         211  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          881         211  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          881         210  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          882         210  = 
   0.000000000000000E+000
+ Resetting depth at location (i,j) :          882         210  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          883         210  = 
+  0.000000000000000E+000
  Resetting depth at location (i,j) :          883         209  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          884         209  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          884         209  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          885         209  = 
   0.000000000000000E+000
+ Resetting depth at location (i,j) :          885         209  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          886         209  = 
+  0.000000000000000E+000
  Resetting depth at location (i,j) :          886         208  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          887         208  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          887         208  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          888         208  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          888         207  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          889         207  = 
   0.000000000000000E+000
+ Resetting depth at location (i,j) :          889         207  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          890         207  = 
+  0.000000000000000E+000
  Resetting depth at location (i,j) :          890         206  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          891         206  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          891         206  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          892         206  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          892         207  = 
+ Resetting depth at location (i,j) :          892         206  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          893         206  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          844         218  = 
   0.000000000000000E+000
@@ -118,5 +166,5 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to    2160000.
 Tabulating mpp_clock statistics across      1 PEs...
 
                                           tmin          tmax          tavg          tstd  tfrac grain pemin pemax
-Total runtime                         8.384291      8.384291      8.384291      0.000000  1.000     0     0     0
+Total runtime                        20.870658     20.870658     20.870658      0.000000  1.000     0     0     0
  MPP_STACK high water mark=           0

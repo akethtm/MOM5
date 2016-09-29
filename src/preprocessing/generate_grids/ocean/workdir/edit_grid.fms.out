@@ -50,11 +50,21 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     540000.
   0.000000000000000E+000
  Resetting depth at location (i,j) :          499         403  = 
   0.000000000000000E+000
+ Resetting depth at location (i,j) :          864         213  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          865         213  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          866         213  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          867         213  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          868         213  = 
+  0.000000000000000E+000
 NOTE: MPP_IO_SET_STACK_SIZE: stack size set to    2160000.
  MPP_DOMAINS_STACK high water mark=           0
 
 Tabulating mpp_clock statistics across      1 PEs...
 
                                           tmin          tmax          tavg          tstd  tfrac grain pemin pemax
-Total runtime                         7.329624      7.329624      7.329624      0.000000  1.000     0     0     0
+Total runtime                         5.312650      5.312650      5.312650      0.000000  1.000     0     0     0
  MPP_STACK high water mark=           0

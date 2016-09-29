@@ -15,5 +15,30 @@
 500	,402	,0
 499	,403	,0
 
-#line joining islands 2 and 3 at the eastern end
-864:868 ,213	,0 
+#line joining island 2 and 3 at the eastern end
+864:868 ,213    ,0
+
+#line joining island 3 and 4 at the eastern end
+854:861 ,215    ,0 
+
+#line joining island 1 and 2 at the eastern end
+878	,212	,0
+879	,211	,0
+880	,211	,0
+881	,210	,0
+882	,210	,0
+883	,209	,0
+884	,209	,0
+885	,209	,0
+886	,208	,0
+887	,208	,0
+888	,207	,0
+889	,207	,0
+890	,206	,0
+891	,206	,0
+892	,206	,0
+892     ,207    ,0
+
+#line joining island 4 and 5 at the eastern end
+
+844:845 ,218	,0

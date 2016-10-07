@@ -20,35 +20,21 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
  /
  fill_shallow is T
 NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     540000.
- Resetting depth at location (i,j) :          499         499  = 
+ Resetting depth at location (i,j) :          497         392  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          498         400  = 
+ Resetting depth at location (i,j) :          498         392  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          498         401  = 
+ Resetting depth at location (i,j) :          499         392  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          497         402  = 
+ Resetting depth at location (i,j) :          500         392  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          497         403  = 
+ Resetting depth at location (i,j) :          495         393  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          500         399  = 
+ Resetting depth at location (i,j) :          496         393  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          500         400  = 
+ Resetting depth at location (i,j) :          500         393  = 
   0.000000000000000E+000
- Resetting depth at location (i,j) :          499         401  = 
-  0.000000000000000E+000
- Resetting depth at location (i,j) :          499         402  = 
-  0.000000000000000E+000
- Resetting depth at location (i,j) :          498         403  = 
-  0.000000000000000E+000
- Resetting depth at location (i,j) :          501         399  = 
-  0.000000000000000E+000
- Resetting depth at location (i,j) :          501         400  = 
-  0.000000000000000E+000
- Resetting depth at location (i,j) :          500         401  = 
-  0.000000000000000E+000
- Resetting depth at location (i,j) :          500         402  = 
-  0.000000000000000E+000
- Resetting depth at location (i,j) :          499         403  = 
+ Resetting depth at location (i,j) :          496         392  = 
   0.000000000000000E+000
  Resetting depth at location (i,j) :          864         213  = 
   0.000000000000000E+000
@@ -74536,11 +74522,247 @@ NOTE: MPP_IO_SET_STACK_SIZE: stack size set to     540000.
   0.000000000000000E+000
  Resetting depth at location (i,j) :          735         299  = 
   0.000000000000000E+000
+ Resetting depth at location (i,j) :          740         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          740         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          741         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          741         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          741         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          741         297  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          741         296  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          740         296  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          740         297  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          740         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          739         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          739         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          739         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          738         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          738         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          738         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          738         297  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          739         297  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          737         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          737         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          737         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          742         297  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          742         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          742         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          742         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          743         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          743         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          743         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          743         297  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          744         297  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          744         298  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          744         299  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          744         300  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          720         314  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          720         313  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          720         312  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          721         312  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          721         313  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          719         313  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          719         314  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          724         310  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          724         309  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          724         308  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          725         308  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          725         309  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          725         310  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          726         310  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          726         311  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          727         311  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          727         310  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          723         309  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          723         310  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          723         311  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          722         311  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          722         310  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          725         312  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          725         313  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          126         415  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          127         415  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          126         416  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          127         416  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          101         443  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          101         444  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          101         445  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          101         446  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          101         447  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          102         444  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          102         445  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          102         446  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          102         447  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         438  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         439  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         440  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         441  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         442  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         443  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         444  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         445  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          103         446  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         438  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         439  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         440  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         441  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         442  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         443  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         444  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         445  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         435  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         436  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         437  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         438  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         439  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         440  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         441  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         442  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          105         443  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          106         436  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          106         437  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          106         438  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          106         439  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          106         440  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          106         441  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          106         442  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          107         435  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          107         436  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          107         437  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          107         438  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          107         439  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          107         440  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          107         441  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          108         435  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          108         436  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          108         437  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         436  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          104         437  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          102         440  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          102         441  = 
+  0.000000000000000E+000
+ Resetting depth at location (i,j) :          102         442  = 
+  0.000000000000000E+000
 NOTE: MPP_IO_SET_STACK_SIZE: stack size set to    2160000.
  MPP_DOMAINS_STACK high water mark=           0
 
 Tabulating mpp_clock statistics across      1 PEs...
 
                                           tmin          tmax          tavg          tstd  tfrac grain pemin pemax
-Total runtime                        16.538002     16.538002     16.538002      0.000000  1.000     0     0     0
+Total runtime                         7.077081      7.077081      7.077081      0.000000  1.000     0     0     0
  MPP_STACK high water mark=           0

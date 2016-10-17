@@ -1,0 +1,18 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.93  
+ ! Linux 2.6.32-504.el6.x86_64 64-bit - 11/13/14
+ ! 14-Oct-16 13:53     
+
+use indiano5.nc
+shade WET
+sh da
+shade DEPTH
+shade/Y=70:80/X=0:10 DEPTH
+shade/Y=0:10/X=70:80 DEPTH
+shade/Y=0:10/X=70:80/lev=(0,100,10) DEPTH
+shade/Y=0:10/X=70:80/lev=(0,1000) DEPTH
+shade/Y=0:10/X=70:80/lev=(0,1000,10) DEPTH
+shade/Y=0:10/X=70:80/lev=(-1000,1000,10) DEPTH
+shade DEPTH
+shade/Y=0:10/X=70:80 DEPTH
+exit
